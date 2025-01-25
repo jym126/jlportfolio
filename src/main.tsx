@@ -16,7 +16,7 @@ createRoot(document.getElementById('root')!).render(
     <Navbar />
       <div className="content">
         <Routes>
-          <Route path="/jlportfolio/jlportfolio" element={<Home />} />
+          <Route path="/jlportfolio/" element={<Home />} />
           <Route path="/jlportfolio/about" element={<About />} />
           <Route path="/jlportfolio/projects" element={<Projects />} />
           <Route path="/jlportfolio/contact" element={<Contact />} />
