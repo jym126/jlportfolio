@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter } from 'react-router-dom'
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -12,7 +12,7 @@ import Contact from './pages/Contact';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Navbar />
       <div className="content">
         <Routes>
@@ -23,6 +23,6 @@ createRoot(document.getElementById('root')!).render(
         </Routes>
       </div>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>,
 )
