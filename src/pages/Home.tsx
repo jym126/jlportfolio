@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile.jpeg'; 
+import profilePic from '../assets/profile2.jpg'; 
 
 const Home: React.FC = () => {
   return (

@@ -17,6 +17,7 @@
     "@heroicons/react": "^2.2.0",
     "@tailwindcss/vite": "^4.0.0",
     "@types/react-router-dom": "^5.3.3",
+    "emailjs-com": "^3.2.0",
     "jlportfolio": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
