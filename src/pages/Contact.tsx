@@ -20,7 +20,7 @@ const Contact: React.FC = () => {
 
     // EmailJS configuration
     const serviceID = 'service_w5he7q4';
-    const templateID = 'template_ibg90bq';
+    const templateID = 'template_hia7dee';
     const userID = 's_QfeXZJLKKiwrNGY'; // Replace with your public key
 
     emailjs
