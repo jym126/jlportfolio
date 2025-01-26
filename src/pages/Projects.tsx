@@ -26,27 +26,27 @@ const Projects: React.FC = () => {
     },
     {
       title: 'chatdroid',
-      description: 'Chat interactivo con escritora y reconocimiento de voz. Desarrollada con Python y Sockets',
+      description: 'Interactive chat bot. You can write or speake to the bot. Developed with Python and Sockets',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917094/chatdroid_x1ffus.jpg',
       url: 'https://chatdroid.onrender.com/'
     },
     {
       title: 'proyman',
-      description: 'API REST-full development for any industry or purpose. Developed with Mongobd, Express, JavaScript, Nodejs and Swagger',
-      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737918518/data-api_tcfpvz.jpg',
+      description: 'Project Management Tool to control the state of our projects. Developed with MERN Mongobd, Express, JavaScript, Nodejs and Swagger',
+      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917851/proyman_hcvamy.jpg',
       url: 'https://proyman.onrender.com/'
     },
     {
       title: 'data-API',
-      description: 'Chat interactivo con escritora y reconocimiento de voz. Desarrollada con Python y Sockets',
-      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917094/chatdroid_x1ffus.jpg',
+      description: 'API REST-full development for any industry or purpose. Developed with MERN Mongobd, Express, JavaScript, Nodejs and Swagger',
+      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737918518/data-api_tcfpvz.jpg',
       url: 'https://products-2k1m.onrender.com/doc/'
     },
     {
-      title: 'chatdroid',
-      description: 'Chat interactivo con escritora y reconocimiento de voz. Desarrollada con Python y Sockets',
-      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917094/chatdroid_x1ffus.jpg',
-      url: 'https://chatdroid.onrender.com/'
+      title: 'distecalc',
+      description: 'Online tool for budgetting and export to excel. Developed with MERN Mongobd, Express, JavaScript and Nodejs',
+      image: 'https://res.cloudinary.com/dmimages/image/upload/v1737919724/distecalc_ijb2et.jpg',
+      url: 'https://distecalc.netlify.app/'
     },
     {
       title: 'chatdroid',
