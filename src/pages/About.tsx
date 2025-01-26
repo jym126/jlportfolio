@@ -3,28 +3,28 @@ import profilePic from '../assets/profile.jpeg'; // Add your profile picture to 
 
 const About: React.FC = () => {
   return (
-    <div className="about">
-      <h1>About Me</h1>
-      <img src={profilePic} alt="Jose L. Martínez" className="profile-pic" />
-      <p>
-        My name is <strong>Jose L. Martínez</strong>, and I am a <strong>Full-Stack Developer</strong> with a passion 
-        for creating efficient, scalable, and user-focused web applications. I specialize in modern web technologies such as 
-        <strong>React</strong>, <strong>TypeScript</strong>, <strong>Node.js</strong>, and <strong>REST APIs</strong>.
+    <div className="about bg-dark text-light min-h-screen flex flex-col items-center justify-center p-6">
+      <h1 className="text-4xl font-bold mb-6">About Me</h1>
+      <img
+        src={profilePic}
+        alt="Jose L. Martínez"
+        className="profile-pic w-40 h-40 rounded-full shadow-lg mb-6"
+      />
+      <p className="text-lg leading-relaxed text-center max-w-3xl mb-4">
+        My name is <span className="text-accent font-semibold">Jose L. Martínez</span>, and I am a 
+        <span className="font-semibold"> Full-Stack Developer</span> passionate about building efficient, scalable, and user-focused web applications. 
+        My expertise lies in technologies such as <span className="font-semibold">React</span>, 
+        <span className="font-semibold"> TypeScript</span>, <span className="font-semibold">Node.js</span>, and 
+        <span className="font-semibold"> REST APIs</span>.
       </p>
-      <p>
-        My journey in development has been driven by a commitment to excellence and a love for solving problems. I thrive 
-        in environments that challenge me to innovate, optimize performance, and deliver intuitive user experiences. Whether 
-        it's front-end design, back-end logic, or database management, I approach every project with attention to detail and 
-        a focus on results.
+      <p className="text-lg leading-relaxed text-center max-w-3xl mb-4">
+        My journey in development has been fueled by my love for solving problems and a dedication to delivering
+        results. Whether it's front-end design, back-end logic, or database management, I thrive on finding innovative 
+        solutions while maintaining a commitment to user experience.
       </p>
-      <p>
-        When I'm not coding, I enjoy learning about new technologies, exploring creative design ideas, and finding ways to 
-        improve both my technical and soft skills. I take pride in my ability to work collaboratively while maintaining 
-        a proactive and self-driven approach to tasks.
-      </p>
-      <p>
-        Feel free to explore my portfolio, and don’t hesitate to reach out if you’d like to collaborate or learn more 
-        about my work.
+      <p className="text-lg leading-relaxed text-center max-w-3xl">
+        Outside of coding, I enjoy exploring new technologies, enhancing my skills, and collaborating with others to
+        bring creative ideas to life. Feel free to explore my projects, or reach out if you'd like to work together!
       </p>
     </div>
   );
