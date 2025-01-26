@@ -77,7 +77,7 @@ const Contact: React.FC = () => {
         </label>
         <button
           type="submit"
-          className="w-full bg-accent text-dark font-bold py-2 px-4 rounded-md hover:bg-accent-dark transition duration-300"
+          className="w-full bg-accent text-dark font-bold py-2 px-4 rounded-md hover:bg-accent-dark transition duration-300 cursor-pointer"
         >
           Send
         </button>
