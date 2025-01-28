@@ -58,7 +58,7 @@ const Projects: React.FC = () => {
 
   const projectData2 = [
     {
-      title: 'gamesReview',
+      title: 'Games Review',
       description: 'Android Application that allows viewing the latest released games and their features. Developed with Ionic',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737928630/games-review_tsjdmp.jpg',
       url: 'https://play.google.com/store/apps/details?id=com.developmentmartinez.gamereview'
@@ -74,6 +74,12 @@ const Projects: React.FC = () => {
       description: 'Android Application that allows viewing the latest released movies and series, actor and sipnosis. Developed with Ionic',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737931510/GuiaTV-pelis_y_series_nzkban.jpg',
       url: 'https://chatdroid.onrender.com/'
+    },
+    {
+      title: 'MyFinApp',
+      description: 'Android Application for personal finances. Developed with Ionic, Angular and Mongodb',
+      image: 'https://res.cloudinary.com/dmimages/image/upload/v1738095040/myfinapp_qfwtpi.png',
+      url: '#'
     },
   ];
 
