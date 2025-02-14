@@ -73,13 +73,13 @@ const Projects: React.FC = () => {
       title: 'GuiaTV-pelis y series',
       description: 'Aplicación Android  que nos permite ver las últimas películas y series actualmente en al aire, asi como el reparto y sipnosis. Desarrollada con Ionic y Ángular',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737931510/GuiaTV-pelis_y_series_nzkban.jpg',
-      url: 'https://chatdroid.onrender.com/'
+      url: 'https://play.google.com/store/apps/details?id=com.developmentmartinez.guiaTV'
     },
     {
       title: 'MyFinApp',
       description: 'Aplicación Application para finanzas personales, control de gastos, presupuestos, etc. Desarrollada con Ionic, Angular y MongoDB',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1738095040/myfinapp_qfwtpi.png',
-      url: '#'
+      url: 'https://res.cloudinary.com/dmimages/image/upload/v1738095040/myfinapp_qfwtpi.png'
     },
   ];
 
