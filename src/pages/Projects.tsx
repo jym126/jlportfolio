@@ -26,31 +26,31 @@ const Projects: React.FC = () => {
     },
     {
       title: 'chatdroid',
-      description: 'Interactive chat bot. You can write or speake to the bot. Developed with Python and Sockets',
+      description: 'Chat-bot Interactivo. Puedes hablarle o escribirle. Desarrollado con Python y Sockets',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917094/chatdroid_x1ffus.jpg',
       url: 'https://chatdroid.onrender.com/'
     },
     {
       title: 'proyman',
-      description: 'Project Management Tool to control the state of our projects. Developed with MERN Mongobd, Express, JavaScript, Nodejs and Swagger',
+      description: 'Herramienta de Project Management para el control del estado de nuestros proyectos. Desarrollado con MERN MongoDB, Express, JavaScript, Nodejs and Swagger',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737917851/proyman_hcvamy.jpg',
       url: 'https://proyman.onrender.com/'
     },
     {
       title: 'data-API',
-      description: 'API REST-full development for any industry or purpose. Developed with MERN Mongobd, Express, JavaScript, Nodejs and Swagger',
+      description: 'API REST-full. Para testeo de API, desarrollado para cualquier tipo de industria o propósito. Desarrollado con MERN MongoDB, Express, JavaScript, Nodejs and Swagger',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737918518/data-api_tcfpvz.jpg',
       url: 'https://products-2k1m.onrender.com/doc/'
     },
     {
       title: 'distecalc',
-      description: 'Online tool for budgetting and export to excel. Developed with MERN Mongobd, Express, JavaScript and Nodejs',
+      description: 'Herramienta web para realizar presupuestos y cálculos de de proyectos con exportación de ficheros a Excel. Desarrollado con MERN MongoDB, Express, JavaScript and Nodejs',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737919724/distecalc_ijb2et.jpg',
       url: 'https://distecalc.netlify.app/'
     },
     {
       title: 'sharedden',
-      description: 'Real estate portal for searching shared apartments. Developed with MERN Mongobd, Express, JavaScript and Nodejs',
+      description: 'Portal inmoviliario para busqueda de pisos/casas para compartir. Desarrollado con MERN MongoDB, Express, JavaScript and Nodejs',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737930689/sharedden_a8quf2.jpg',
       url: '#'
     },
@@ -59,27 +59,27 @@ const Projects: React.FC = () => {
   const projectData2 = [
     {
       title: 'Games Review',
-      description: 'Android Application that allows viewing the latest released games and their features. Developed with Ionic',
+      description: 'Aplicación Android que permite ver los últimos juegos lanzados por las diferentes plataformas y sus principales características y ratios de los jugadores. Desarrollado con Ionic y Ángular',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737928630/games-review_tsjdmp.jpg',
       url: 'https://play.google.com/store/apps/details?id=com.developmentmartinez.gamereview'
     },
     {
       title: 'Busca-Gif',
-      description: 'Android Application that allows us find gifs introducing a name. Developed with Ionic',
+      description: 'Aplicación Android que nos permite encontrar gifs por una palabra clave. Desarrollado con Ionic y Ángular',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737931060/busca-gif_h2hr5y.jpg',
       url: 'https://play.google.com/store/apps/details?id=com.developmentmartinez.giffinder'
     },
     {
       title: 'GuiaTV-pelis y series',
-      description: 'Android Application that allows viewing the latest released movies and series, actor and sipnosis. Developed with Ionic',
+      description: 'Aplicación Android  que nos permite ver las últimas películas y series actualmente en al aire, asi como el reparto y sipnosis. Desarrollada con Ionic y Ángular',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1737931510/GuiaTV-pelis_y_series_nzkban.jpg',
-      url: 'https://chatdroid.onrender.com/'
+      url: 'https://play.google.com/store/apps/details?id=com.developmentmartinez.guiaTV'
     },
     {
       title: 'MyFinApp',
-      description: 'Android Application for personal finances. Developed with Ionic, Angular and Mongodb',
+      description: 'Aplicación Application para finanzas personales, control de gastos, presupuestos, etc. Desarrollada con Ionic, Angular y MongoDB',
       image: 'https://res.cloudinary.com/dmimages/image/upload/v1738095040/myfinapp_qfwtpi.png',
-      url: '#'
+      url: 'https://res.cloudinary.com/dmimages/image/upload/v1738095040/myfinapp_qfwtpi.png'
     },
   ];
 

@@ -13,8 +13,15 @@ const About: React.FC = () => {
       <p className="text-lg leading-relaxed text-center max-w-3xl mb-4">
         My name is <span className="text-accent font-semibold">Jose L. Martínez</span>, and I am a 
         <span className="font-semibold"> Full-Stack Developer</span> passionate about building efficient, scalable, and user-focused web applications. 
-        My expertise lies in technologies such as <span className="font-semibold">React</span>, 
-        <span className="font-semibold"> TypeScript</span>, <span className="font-semibold">Node.js</span>, and 
+        My expertise lies in technologies such as 
+        <span className="font-semibold">JavaScript</span>, 
+        <span className="font-semibold">HTML</span>, 
+        <span className="font-semibold">CSS</span>, 
+        <span className="font-semibold">React</span>, 
+        <span className="font-semibold">Angular</span>, 
+        <span className="font-semibold"> TypeScript</span>, 
+        <span className="font-semibold">Node.js</span>, 
+        <span className="font-semibold">Data Base Management</span>,  and 
         <span className="font-semibold"> REST APIs</span>.
       </p>
       <p className="text-lg leading-relaxed text-center max-w-3xl mb-4">
