@@ -19,20 +19,20 @@ const Contact: React.FC = () => {
     e.preventDefault();
 
     // EmailJS configuration
-    const serviceID = 'service_w5he7q4';
-    const templateID = 'template_hia7dee';
+    const serviceID = 'service_6k5ktpl';
+    const templateID = 'template_ghphj9g';
     const userID = 's_QfeXZJLKKiwrNGY'; // Replace with your public key
 
     emailjs
       .send(serviceID, templateID, formData, userID)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
-        setStatus('Your message has been sent successfully!');
+        setStatus('Su mensaje ha sido enviado con éxito!');
         setFormData({ name: '', email: '', message: '' });
       })
       .catch((error) => {
         console.error('FAILED...', error);
-        setStatus('Failed to send your message. Please try again later.');
+        setStatus('Su mensaje no pudo ser enviado. Por favor inténtelo mas tarde.');
       });
   };
 
